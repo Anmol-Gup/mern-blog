@@ -1,0 +1,14 @@
+# .gitignore
+
+# Ignore node_modules
+node_modules
+
+# Ignore .env files
+.env
+
+# Ignore temporary files
+.tmp/
+
+# Ignore build artifacts
+build/
+dist/

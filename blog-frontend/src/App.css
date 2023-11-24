@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Lato&family=Open+Sans:wght@500;600&family=Roboto:wght@500&family=Rubik&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Geologica', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  list-style-type: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+.heading{
+  font-size: 3rem;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFC436;
+}
+.header{
+  flex: 70%;
+  padding-left: 4rem;
+}
+.links{
+  font-weight: 600;
+  flex: 30%;
+  font-size: 1.8rem;
+}
+.navbar-nav{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.active_class{
+  color: white;
+  text-decoration: none;
+}
+.nav_link{
+  padding: 0 1rem;
+  color: #000;
+}
+section{
+  margin-top: 4.5rem;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+.about_content h2{
+  font-weight: 700;
+  text-align: center;
+  font-size: 2.7rem;
+}
+h3{
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0.5rem 0rem;
+}
+.card-text{
+  font-size: 1.8rem;
+}
+.card{
+  border-radius: 0.5rem;
+  padding: 1rem 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* height: 38rem; */
+}
+.card:hover{
+  cursor: pointer;
+}
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.about_content img{
+  width: 22rem;
+  margin: 2.5rem auto;
+  display: block;
+} 
+.error{
+  width: 50rem;
+}
+footer{
+  margin-top: auto;
+  padding-top: 1rem;
+  background-color: #2b3843;
+  color: #fff;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.comment_section{
+  font-size: 1.8rem;
+}
+.comment_section input, .comment_section textarea{
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+.comment_section button{
+  font-size: 1.8rem;
+}
+@media screen and (max-width:576px){
+  .navbar{
+    display: block;
+  }  
+  .header{
+    display: grid;
+    place-items: center;
+    padding-left: 0;
+  }
+  .card{
+    margin: 2rem 0;
+  }
+  .about_content p{
+    padding: 0 1.2rem;
+  }
+  section{
+    margin-top: 3.5rem;
+  }
+}
+@media screen and (min-width:577px){
+  .header{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .card{
+    margin: 3rem 0;
+  }
+}
