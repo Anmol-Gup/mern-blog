@@ -15,7 +15,11 @@ The client side of the application is developed using React.js.
 
 The React app will be available at `http://localhost:5173`.
 
-![image](https://github.com/Anmol-Gup/mern-blog/assets/66009201/c7fad078-bd0f-4f18-a14f-bb016d9e54e6)
+## Demo
+
+[![image](https://github.com/Anmol-Gup/mern-blog/assets/66009201/c7fad078-bd0f-4f18-a14f-bb016d9e54e6)](https://www.youtube.com/watch?v=ZT_cBI-e4XE)
+
+## Snippets
 
 ![image](https://github.com/Anmol-Gup/mern-blog/assets/66009201/66f58a25-47bb-4647-847c-3856c6aec9af)
 
